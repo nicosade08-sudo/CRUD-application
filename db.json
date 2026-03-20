@@ -1,0 +1,55 @@
+{
+  "books": [
+    {
+      "title": "Stalker",
+      "author": "Lars Kepler",
+      "description": "A chilling hunt where every move is watched. A psychological thriller about a killer who films victims before striking.",
+      "genre": "Psychological thriller, Novel, Suspense, Fiction, Mystery",
+      "year": "2014",
+      "rank": "4",
+      "rating": "10",
+      "id": "1"
+    },
+    {
+      "title": "YOU",
+      "author": "Caroline Kepnes",
+      "description": "A dangerously obsessive love story in the digital age. A chilling thriller about Joe Goldberg, whose charm hides a dark fixation as he manipulates and stalks those he claims to love.",
+      "genre": "Mystery Thriller, Suspense, Horror, Adult, Crime, Fiction",
+      "year": "2014",
+      "rank": "5",
+      "rating": "10",
+      "id": "2"
+    },
+    {
+      "title": "The Window",
+      "author": "Fahime Rahimi",
+      "description": "A romantic story of love, growth, and a bond that changes a young life. A heartfelt novel about emotional awakening, relationships, and the experiences that shape one’s journey into adulthood.",
+      "genre": "Romance, Drama, Contemporary Fiction",
+      "year": "1993",
+      "rank": "1",
+      "rating": "10",
+      "id": "3"
+    },
+    {
+      "title": "V for Vendetta",
+      "author": "Alan Moore",
+      "description": "A masked rebel rises against a corrupt regime. A powerful graphic novel where the enigmatic V challenges tyranny and inspires resistance in a dystopian society.",
+      "genre": "Dystopian graphic novel, Political Thriller, Science Fiction",
+      "year": "1989",
+      "rank": "2",
+      "rating": "10",
+      "id": "4"
+    },
+    {
+      "title": "1793",
+      "author": "Niklas Natt och Dag",
+      "description": "A dark crime novel set in 18th-century Stockholm about a brutal murder and the investigation that reveals corruption and injustice.",
+      "genre": "Historical crime, Thriller, Mystery, Noir, Historical fiction, Crime fiction",
+      "year": "2017",
+      "rank": "3",
+      "rating": "10",
+      "id": "5981"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

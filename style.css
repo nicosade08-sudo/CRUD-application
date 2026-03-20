@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+.text-box {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+body {
+    background-image: url("books.jpg");
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-size: cover;
+    background-position: center;
+}
+#forms {
+    background-color: rgba(255,255,255,0.9);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+#book-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+}
+#book-list button {
+    margin-left: 15px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #c94c4c; /* röd = delete */
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#book-list button:hover {
+    background-color: #a63a3a;
+}
+#books {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("nicci.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 5px black;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bookStyle {
+    background-color: rgb(217, 207, 207);
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.bookStyle:hover {
+    background-color: rgb(200, 190, 190);
+    transform: scale(1.02);
+}
+input, textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+}
+textarea {
+    min-height: 100px;
+}
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+#book-list button {
+    margin-left: 15px;
+    padding: 5px;
+}
+label {
+    color:rgb(31, 20, 6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    display: block;
+    margin-top: 10px;
+}
